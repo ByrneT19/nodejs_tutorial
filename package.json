@@ -1,16 +1,18 @@
 {
-  "name": "Nodejs_and_Express",
+  "name": "nodejs_and_express",
   "version": "1.0.0",
   "description": "NodeJS tutorial",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
